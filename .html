@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css\.css" rel="stylesheet">
+    <link href="css\nav.css" rel="stylesheet">
+    <link href="css\aboutMe.css" rel="stylesheet">
+    <link href="css\section.css" rel="stylesheet">
+    <link href="css\footer.css" rel="stylesheet">
+    <link href="css\table.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="js-body body">
+
+    <header>
+        <h1 class="js-header header"> Maciej Niesłuchowski</h1>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li class="nav__item"> <a class="nav__link" href="#o-mnie">O mnie</a> </li>
+            <li class="nav__item"><a class="nav__link" href="#ulubione-filmy">Ulubione filmy</a></li>
+            <li class="nav__item"><a class="nav__link" href="#kontakt">Kontakt </a></li>
+            <button class="nav__button js-button">Szare tło </button>
+
+        </ul>
+    </nav>
+    <main>
+
+        <section id="o-mnie" class="js-aboutMe aboutMe">
+            <div>
+                <H2>O mnie</H2>
+                <img class="js-aboutMe__img aboutMe__img"
+                    src="http://foto-hosting.pl/img/97/7a/e1/977ae12a4cb2a9956368de7c0d8196161f172ba0.jpeg"
+                    alt="Maciej Niesłuchowski">
+                <div class="aboutMe__mainText">
+                    <p>
+                        Cześć, jestem Maciek, mam 22 lata. <strong>Studiowałem 2 lata sztuczną
+                            inteligencję</strong><br>
+                        <i>(Artificial
+                            intelligence)</i> jednak zrezygnowałem, ponieważ
+                        denerwowała mnie<br>
+                        duża ilość przedmiotów niezwiązanych z programowaniem jak np.
+                        <em>cztery</em><br>
+                        rodzje matematyki.<b>Kurs
+                            Frontendu wybrałem, dlatego że od razu widzę efekty mojej pracy.</b>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="ulubione-filmy" class="section">
+            <div class="section__container">
+                <table class="table">
+                    <caption class="table__caption">Moje ulubione filmy</caption>
+                    <thead>
+                        <tr class="table__Row">
+                            <th class="table__Cell table__Header" scope="col">Tytuł</th>
+                            <th class="table__Cell table__Header" scope="col">Reżyser</th>
+                            <th class="table__Cell table__Header" scope="col">Rok</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table__Row">
+                            <th class="table__Cell table__Header" scope="row">Parasite</th>
+                            <td class="table__Cell">Joon-ho Bong</td>
+                            <td class="table__Cell">2019</td>
+
+                        </tr>
+                        <tr class="table__Row">
+                            <th class="table__Cell table__Header" scope="row">To nie jest kraj dla starych
+                                ludzi</th>
+                            <td class="table__Cell">Ethan Coen, Joel Coen</td>
+                            <td class="table__Cell">2007</td>
+
+                        </tr>
+                        <tr class="table__Row">
+                            <th class="table__Cell table__Header" scope="row">Planeta Małp</th>
+                            <td class="table__Cell">Franklin J.Schaffner</td>
+                            <td class="table__Cell">1968</td>
+
+                        </tr>
+                        <tr class="table__Row">
+                            <th class="table__Cell table__Header" scope="row">Drive</th>
+                            <td class="table__Cell">Nicolas Winding Refn</td>
+                            <td class="table__Cell">2011</td>
+
+                        </tr>
+                    </tbody>
+
+
+                </table>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer" id="kontakt">
+        <H2>Kontakt</H2>
+        <p class="footer__contact">Email: <a href="mailto:email:email@email.com">
+                email@email.com</a><br>
+                Telefon: <a href="tel:123456789">123456789</a>
+        </p>
+    </footer>
+
+
+
+</body>
+
+</html>

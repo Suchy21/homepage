@@ -1,0 +1,34 @@
+.aboutMe {
+    background-color: rgb(154, 193, 229);
+    max-width: 100%;
+    border: 2px solid #ccc;
+    outline: 3px solid #eee;
+    border-radius: 5px;
+    padding: 7px;
+}
+.darkAboutMe {
+    background-color: rgb(55, 55, 55);
+    max-width: 100%;
+    border: 2px solid #ccc;
+    outline: 3px solid #eee;
+    border-radius: 2.5%;
+    padding: 7px;
+}
+.aboutMe__img {
+    max-width: 150px;
+    padding: 7px;
+    box-shadow: 20px -20px 37px -9px rgba(118, 171, 194, 1);
+}
+.aboutMe__darkImg {
+    max-width: 150px;
+    padding: 7px;
+    box-shadow: 20px -20px 37px -9px rgb(163, 164, 164);
+}
+.aboutMe__mainText {
+    text-align:start;
+    padding: 7px;
+    font-family: 'Lato', sans-serif;
+
+    line-height: 1.5;
+
+}

@@ -1,0 +1,25 @@
+.nav__item {
+    display: inline-block;
+    padding: 10px;
+}
+.nav__button {
+    background-color: #ffffff00;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.nav__link {
+    color: black;
+    text-decoration: none;
+}
+.nav__link--Dark {
+    color: #eee;
+}
+.nav__link:hover {
+    color: #636363;
+    border-bottom: 1px solid;
+    outline: none;
+}
+.nav__link:active {
+    color: crimson;
+}
